@@ -1,0 +1,81 @@
+h1{
+    font-family:monospace;
+    font-weight: 900;
+    font-size: 2rem;
+    margin: auto;
+    /* text-align: center; */
+    color: aliceblue;
+    /* text-shadow: black 0px 0px 2px ; */
+    text-shadow: black 2px 2px 2px, black 0px 0px 9px ;
+  
+    margin-bottom: 10px;
+    position: relative;
+    width: 300px;
+    /* background-color: red; */
+}
+span{
+
+ font-size: 10px;
+ /* width:300px; */
+ /* background-color: red; */
+ /* margin: auto; */
+ position: absolute;
+ bottom: -7px ;
+ right:10px
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 5px;
+    margin: auto;
+}
+td{
+height: 50px;
+width:70px;
+/* border: 2px solid black; */
+border-radius: 10px;
+text-align: center;
+/* background: wheat; */
+box-shadow: inset 3px 3px 4px;
+}
+button{
+height: 100%;
+width: 100%;
+font-size: 1.5rem;
+font-family: monospace;
+font-weight: 500;
+border-radius: 10px;
+border: none;
+box-shadow: inset 3px 3px 4px;
+}
+.input{
+padding: 5px;
+padding-right: 15px;
+overflow: hidden;
+height: 50px;
+/* font-family: ; */
+}
+input{
+height: 100%;
+width: 100%;
+background: white;
+border-radius: 10px;
+border: none;
+/* background-image: linear-gradient(to top,black,white) */
+}
+#clr{
+background: red;
+}
+#ans{
+background: green;
+}
+#C{
+background: blue;
+}
